@@ -1,10 +1,11 @@
 //
 //  AppDelegate.swift
-//  Tienda
+//  AplicacionDeportes
 //
-//  Created by Juan Carlos Salazar Mesa on 29/11/15.
-//  Copyright © 2015 Juan Carlos Salazar Mesa. All rights reserved.
+//  Created by leidy carvajal on 1/07/16.
+//  Copyright © 2016 leidy carvajal. All rights reserved.
 //
+
 
 import UIKit
 
@@ -15,7 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        Utilities.copyFile("converted.sqlite")
         return true
     }
 
